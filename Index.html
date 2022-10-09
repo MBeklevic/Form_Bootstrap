@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-3">Form Using Bootstrap</h1>
+        <form action="#nowhere">
+            <div class="form-group col-6 mb-3 mt-1">
+                <label class="" for="name">First Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Mustafa">
+            </div>
+            <div class="form-group col-6 mb-3 mt-1">
+                <label class="" for="lname">Last Name</label>
+                <input type="lname" class="form-control" id="lname" placeholder="Bekleviç">
+            </div>
+            <div class="form-group col-6 mb-3 mt-1">
+                <label class="" for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="m.beklevic37@gmail.com">
+            </div>
+            <div class="form-group col-6 mb-3 mt-1">
+                <label class="" for="password">Password</label>
+                <input type="password" class="form-control  " id="password" placeholder="Password here!">
+            </div>
+            <div class="form-group col-6 mb-3 mt-1">
+                <label class="d-block" for="state">City</label>
+                <select class="form-control" name="state" id="state">
+                    <option value="IZ">İzmir</option>
+                    <option value="IST">İstanbul</option>
+                    <option value="AN">Ankara</option>
+                </select>
+            </div>
+            <div class="from-check mb-3 mt-1">
+                <input type="checkbox" class="form-check-input" id="formCheckbox">
+                <Label class="form-check-label " for="formCheckbox">Şartları Kabul Ediyorum</Label>
+            </div>
+            <button class="btn btn-primary col-6">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
